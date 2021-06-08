@@ -1,0 +1,26 @@
+.wrapper{
+    overflow-x: hidden;
+    overflow-y: auto;
+    letter-spacing: 2px;
+    .navbar{
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e3e3e3;
+        
+
+        .righty{
+            display:flex;
+            width:30%;
+            justify-content: space-between;
+          
+            padding:5px;
+            .link{
+                text-decoration: none;
+                padding: 10px;
+                
+            }
+        }
+       
+    }
+}
